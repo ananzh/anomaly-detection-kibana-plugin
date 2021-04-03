@@ -1,12 +1,14 @@
 ## Open Distro for Elasticsearch 1.7.0 Release Notes
-Compatible with Kibana 7.6.1 and Open Distro for Elasticsearch 1.7.0.
+
+Compatible with OpenSearch Dashboards 7.6.1 and Open Distro for Elasticsearch 1.7.0.
 
 ## Initial Release
-The Anomaly Detection Kibana plugin provides a Kibana user interface for the [Anomaly Detection plugin](https://github.com/opendistro-for-elasticsearch/anomaly-detection) in Open Distro for Elasticsearch.
 
-Anomaly detection uses the Random Cut Forest (RCF) algorithm for detecting anomalous data points in streaming time series. 
+The Anomaly Detection OpenSearch Dashboards plugin provides a OpenSearch Dashboards user interface for the [Anomaly Detection plugin](https://github.com/opendistro-for-elasticsearch/anomaly-detection) in Open Distro for Elasticsearch.
 
-You can use the plugin with the same version of the [Open Distro for Elasticsearch Alerting Kibana plugin](https://github.com/opendistro-for-elasticsearch/alerting-kibana-plugin) to get alert notifications. You can create a monitor based on an anomaly detector directly on the Alerting Kibana plugin. Monitors run checks on the anomaly detection results regularly and trigger alerts based on custom trigger conditions.
+Anomaly detection uses the Random Cut Forest (RCF) algorithm for detecting anomalous data points in streaming time series.
+
+You can use the plugin with the same version of the [Open Distro for Elasticsearch Alerting OpenSearch Dashboards plugin](https://github.com/opendistro-for-elasticsearch/alerting-kibana-plugin) to get alert notifications. You can create a monitor based on an anomaly detector directly on the Alerting OpenSearch Dashboards plugin. Monitors run checks on the anomaly detection results regularly and trigger alerts based on custom trigger conditions.
 
 ## Features
 
@@ -25,6 +27,7 @@ You can use the plugin with the same version of the [Open Distro for Elasticsear
 - Please see documentation links and GitHub issues for other details.
 
 ## Major Changes
+
 - Add functionality to start & stop detector [PR #12](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/12)
 - Add side navigation bar [PR #19](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/12)
 - Add detector detail page [PR #20](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/20)
@@ -37,6 +40,7 @@ You can use the plugin with the same version of the [Open Distro for Elasticsear
 - Add anomaly charts [PR #50](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/50)
 
 ## Enhancements
+
 - Add window delay [PR #4](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/4)
 - Add empty dashboard page [PR #9](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/9)
 - Update create/edit detector page [PR #13](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/13)
@@ -65,6 +69,7 @@ You can use the plugin with the same version of the [Open Distro for Elasticsear
 - Use bucket aggregation for anomaly distribution [PR #126](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/126)
 
 ## Bug Fixes
+
 - Fix dashboard width [PR #29](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/29)
 - Fix dashboard bugs [PR #35](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/35)
 - Fix detector list bugs [PR #43](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/43)
@@ -104,6 +109,7 @@ You can use the plugin with the same version of the [Open Distro for Elasticsear
 - Fix loading bug on live chart [PR #129](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/129)
 
 ## Infra Changes
+
 - Initial commit [here](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/commit/0e5ace28588d311ee9a632c4783ca3e06ad6b187)
 - Fix unit test issue [PR #14](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/14)
 - Update test snapshots [PR #44](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/44)
@@ -113,6 +119,7 @@ You can use the plugin with the same version of the [Open Distro for Elasticsear
 - Fix test workflow [PR #104](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/104)
 
 ## Documentation Changes
+
 - Create CONTRIBUTORS [here](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/commit/603b9e7a8bff522bbfc7f841d8e61143aaff7a6d)
 - Update README [here](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/commit/c1da0e52eb0bcb3beee23f642686661da634f7f4)
 - Update README [here](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/commit/a9271e7c254ed6541135b7ef9823aac1357343e2)
@@ -123,6 +130,7 @@ You can use the plugin with the same version of the [Open Distro for Elasticsear
 - Modify ODFE 1.7.0 release notes [PR #132](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/132)
 
 ## Version Upgrades
-- Upgrade Kibana to 7.4.2 [PR #6](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/6)
-- Upgrade Kibana to 7.6.1 [PR #60](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/60)
+
+- Upgrade OpenSearch Dashboards to 7.4.2 [PR #6](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/6)
+- Upgrade OpenSearch Dashboards to 7.6.1 [PR #60](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/60)
 - Bump plugin version to 1.7.0.0 [PR #97](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/97)

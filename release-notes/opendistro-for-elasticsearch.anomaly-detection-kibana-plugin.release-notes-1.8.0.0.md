@@ -1,6 +1,6 @@
 ## Open Distro for Elasticsearch 1.8.0 Release Notes
 
-Compatible with Kibana 7.7.0 and Open Distro for Elasticsearch 1.8.0.
+Compatible with OpenSearch Dashboards 7.7.0 and Open Distro for Elasticsearch 1.8.0.
 
 ## Major changes
 
@@ -36,4 +36,4 @@ Compatible with Kibana 7.7.0 and Open Distro for Elasticsearch 1.8.0.
 
 ## Version Upgrades
 
-- Upgrade Kibana to 7.7.0 [PR #164](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/164)
+- Upgrade OpenSearch Dashboards to 7.7.0 [PR #164](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/164)

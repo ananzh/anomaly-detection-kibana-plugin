@@ -1,6 +1,6 @@
 ## Version 1.9.0.0 Release Notes
 
-Compatible with Kibana 7.8.0 and Open Distro for Elasticsearch 1.9.0
+Compatible with OpenSearch Dashboards 7.8.0 and Open Distro for Elasticsearch 1.9.0
 
 ## Major changes
 
@@ -18,7 +18,7 @@ Compatible with Kibana 7.8.0 and Open Distro for Elasticsearch 1.9.0
 - Make all callouts optional on batch action modals (PR [#230](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/230))
 - Remove static page of initialization and failure case, add auto-check of detector state when initializing (PR [#232](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/232))
 - Rename 'last updated time' to 'last enabled time' on Detector list (PR [#233](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/233))
-- Move plugin into Kibana app category (PR [#241](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/241))
+- Move plugin into OpenSearch Dashboards app category (PR [#241](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/241))
 
 ## Bug Fixes
 
@@ -40,4 +40,4 @@ Compatible with Kibana 7.8.0 and Open Distro for Elasticsearch 1.9.0
 
 ## Version Upgrades
 
-- Bump Kibana compatibility to 7.8.0 (PR [#239](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/239))
+- Bump OpenSearch Dashboards compatibility to 7.8.0 (PR [#239](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/239))

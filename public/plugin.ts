@@ -21,21 +21,21 @@ import {
   PluginInitializerContext,
 } from '../../../src/core/public';
 import {
-  AnomalyDetectionKibanaPluginSetup,
-  AnomalyDetectionKibanaPluginStart,
+  AnomalyDetectionOpenSearchDashboardsPluginSetup,
+  AnomalyDetectionOpenSearchDashboardsPluginStart,
 } from '.';
 
-export class AnomalyDetectionKibanaPlugin
+export class AnomalyDetectionOpenSearchDashboardsPlugin
   implements
     Plugin<
-      AnomalyDetectionKibanaPluginSetup,
-      AnomalyDetectionKibanaPluginStart
+      AnomalyDetectionOpenSearchDashboardsPluginSetup,
+      AnomalyDetectionOpenSearchDashboardsPluginStart
     > {
   constructor(private readonly initializerContext: PluginInitializerContext) {
     // can retrieve config from initializerContext
   }
 
-  public setup(core: CoreSetup): AnomalyDetectionKibanaPluginSetup {
+  public setup(core: CoreSetup): AnomalyDetectionOpenSearchDashboardsPluginSetup {
     core.application.register({
       id: 'opendistro-anomaly-detection-kibana',
       title: 'Anomaly Detection',
@@ -54,7 +54,7 @@ export class AnomalyDetectionKibanaPlugin
     return {};
   }
 
-  public start(core: CoreStart): AnomalyDetectionKibanaPluginStart {
+  public start(core: CoreStart): AnomalyDetectionOpenSearchDashboardsPluginStart {
     return {};
   }
 }

@@ -32,7 +32,7 @@ import { getVisibleOptions, sanitizeSearchText } from '../../../utils/helpers';
 import { validateIndex } from '../../../utils/validate';
 import { DataFilter } from '../../components/DataFilters/DataFilter';
 import { FormattedFormRow } from '../../components/FormattedFormRow/FormattedFormRow';
-import { ADFormikValues } from '../../containers/models/interfaces';
+import { ADFormikValues } from '../models/interfaces';
 
 interface DataSourceProps {
   formikProps: FormikProps<ADFormikValues>;

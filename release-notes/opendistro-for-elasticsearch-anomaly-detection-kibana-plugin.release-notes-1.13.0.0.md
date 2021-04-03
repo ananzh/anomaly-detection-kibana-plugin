@@ -1,6 +1,6 @@
 ## Version 1.13.0.0 Release Notes
 
-Compatible with Kibana 7.10.2
+Compatible with OpenSearch Dashboards 7.10.2
 
 ### Features
 
@@ -39,4 +39,4 @@ Compatible with Kibana 7.10.2
 
 ### Maintenance
 
-- Upgrade to Kibana 7.10.2 ([#369](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/369))
+- Upgrade to OpenSearch Dashboards 7.10.2 ([#369](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/369))
